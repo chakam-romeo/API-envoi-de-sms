@@ -24,3 +24,7 @@ a) Charger la classe NUFISMS.php dans votre projet
             $var['dest_sms'] = "destinataire";
             $var['code_phone'] = "code téléphonique";
             $var['sms'] = "Message";
+//********** instantiation de la classe $sms = new NufiSMSAPI();
+//****** Envoi des données $res = $sms->send_sms($var,$url); 
+//********** Affichage du résultat 
+echo $res; die();`
