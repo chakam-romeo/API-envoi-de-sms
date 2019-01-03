@@ -16,3 +16,11 @@ a) Charger la classe NUFISMS.php dans votre projet
 `<?php
 
             include_once('NufiSMSAPI.php');
+            $url = 'http://nufisms.com/api/v1/';
+            $var['api_key'] = "votre code API";
+            $var['token'] = "votre token";
+            $var['type_sms'] = type SMS; 
+            $var['exp_sms'] = "expediteur";
+            $var['dest_sms'] = "destinataire";
+            $var['code_phone'] = "code téléphonique";
+            $var['sms'] = "Message";
